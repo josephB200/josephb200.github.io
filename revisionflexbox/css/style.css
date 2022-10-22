@@ -60,7 +60,7 @@ main{
 
 .firstflex{
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 .mainposition{
@@ -97,12 +97,28 @@ button{
 
 button:hover{
     background-color: #6d2326;
-    cursor: grab;
+    cursor: pointer;
+}
+
+footer{ 
+    background-color: #C34A4F;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondflex{
+    display: block;
+    align-items: center;
+    height: 25%;
+}
+
+.footerposition{
+    height: 25%;
 }
 
 
-
-@media screen and (max-width:770px) {
+@media screen and (max-width:900px) {
     .firstflex{
         display: flex;
         flex-wrap: wrap;
