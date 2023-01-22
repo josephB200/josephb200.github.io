@@ -1,79 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./revisionflexbox/css/reset.css">
-    <link rel="stylesheet" href="./revisionflexbox/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mapage</title>
+    <script src="https://kit.fontawesome.com/fe1f1b777f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="imgheader">
-            <div class="triangle"></div>
+        <div class="header-title">
+            <h2>Test-Tralala</h2>
         </div>
-        <h1 class="titleheader">WELCOME TO MY SITE</h1>
-        <p class="textmain">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-            Aliquam neque provident numquam corporis ab porro reiciendis, laborum iure et vero.
-        </p>
+
+        <nav class="nav-bar">
+            <a href="#">Menu</a>
+            <a href="#">Service</a>
+            <a href="#">Abonnement</a>
+            <a href="#" class="contact">Contact</a>
+            <div class="account-responsive">
+                <i class="fa-solid fa-bars" id="burger-menu"></i>
+            </div>
+        </nav>
+        <div class="modalInscriptionConexion">
+            <button class="button2" id="inscription">Inscription</button>
+            <br />
+            <button class="button2" id="conexion">Conexion</button>
+        </div>
+
+        <div class="account">
+            <button class="button2">Inscription</button>
+            <button class="button2">Conexion</button>
+        </div>
     </header>
     <main>
-        <div class="firstflex">
-            <div class="mainposition">
-                <h2 class="maintitle">LOREM IPSUM</h2>
-                <p class="mainpar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur voluptatem ea officia perferendis architecto esse iste sit. Perspiciatis, cumque sequi ratione nihil voluptate doloremque in perferendis officia!</p>
+        <section class="first-section">
+            <h1 class="section-title">Commercial</h1>
+            <div class="first-container">
+            <div class="img-first-section">
+                <img src="./media/expertise-300x198.png" width="400px">
             </div>
-            <div class="mainposition">
-                <h2 class="maintitle">LOREM IPSUM</h2>
-                <p class="mainpar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem dolor iste quis fuga rerum deserunt eos fugiat recusandae non nesciunt harum architecto, impedit corrupti quidem neque magni.</p>
-            </div>
-            <div class="mainposition">
-                <h2 class="maintitle">LOREM IPSUM</h2>
-                <p class="mainpar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quidem cumque deleniti ab quae, sequi earum magni error atque praesentium repudiandae consectetur modi quis, quia ex mollitia fuga?</p>
+
+            <div class="p-first-section">
+                <h2>Lorem ipsum dolor sit amet.</h2><br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque officia aperiam nam quaerat deserunt corporis quod quisquam voluptatum nisi assumenda provident, nostrum dicta, quo animi, ullam culpa accusantium rem.</p>
             </div>
         </div>
+        </section>
 
-        <div class="lign"></div>
+        <section class="second-section">
+            <div class="second-container">
+            <div class="img-second-section">
+                <img src="./media/expertise-300x198.png" width="400px">
+            </div>
 
-        <div class="firstflex">
-            <div class="mainposition">
-                <h2 class="maintitle">Scaevola Vivendum</h2>
-                <p class="mainpar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consequatur voluptatem ea officia perferendis architecto esse iste sit. Perspiciatis, cumque sequi ratione nihil voluptate doloremque in perferendis officia!</p>
-            </div>
-            <div class="mainposition">
-                <h2 class="maintitle">Vidisse Nusquam</h2>
-                <p class="mainpar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatem dolor iste quis fuga rerum deserunt eos fugiat recusandae non nesciunt harum architecto, impedit corrupti quidem neque magni.</p>
-            </div>
-            <div class="mainposition">
-                <h2 class="maintitle">Mucius Imperdiet</h2>
-                <p class="mainpar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis quidem cumque deleniti ab quae, sequi earum magni error atque praesentium repudiandae consectetur modi quis, quia ex mollitia fuga?</p>
+            <div class="p-second-section">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque officia aperiam nam quaerat deserunt corporis quod quisquam voluptatum nisi assumenda provident, nostrum dicta, quo animi, ullam culpa accusantium rem.</p>
             </div>
         </div>
-            <div class="button">
-            <button>More</button>
-            </div>
+        </section>
     </main>
-    <footer>
-        <div class="secondflex">
-            <div class="footerposition">
-                <h2>Address</h2>
-                <p>Your Corporate Adress</p>
-            </div>
-            <div class="footerposition">
-                <h2>Social</h2>
-                <a href="https://josephb200.github.io/" target="_blank">josephb200.github.io/</a>
-            </div>
-            <div class="footerposition">
-                <h2>Email</h2>
-                <p>testemail@test.com</p>
-            </div>
-            <div class="footerposition">
-                <h2>Phone</h2>
-                <p>01 23 45 67 89</p>
-            </div>
-        </div>
-    </footer>
+    <script src="./js/app.js"></script>
 </body>
 </html>
