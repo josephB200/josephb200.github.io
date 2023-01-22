@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+background-color: aliceblue;
 }
 
  /*Header part*/
@@ -158,6 +159,9 @@ a:hover{
 
    }
    /* Main Part*/
+   main{
+    background-color: aliceblue;
+   }
    .section-title{
     font-size: 3rem;
     text-align: center;
@@ -188,7 +192,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 30rem;
+    height: 35rem;
    }
 
    .footer-question{
