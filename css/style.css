@@ -1,7 +1,9 @@
+
 body{
     font-family: sans-serif;
-    background-color: aliceblue;
-    font-size: 1rem;
+    background-color: #FFFFFF;
+    font-size: 1.2rem;
+
 }
 
  /*Header part*/
@@ -133,6 +135,8 @@ a:hover{
   } 
 
 
+
+
   @media screen and (min-width:1001px){
     .modalInscriptionConexion{
         display: none !important;
@@ -161,8 +165,25 @@ a:hover{
    }
    /* Main Part*/
    main{
-    background-color: aliceblue;
+    background-color: #FFFFFF;
+    line-height: 2.6rem;
+    font-size: 1.3rem;
    }
+
+   .first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+   }
+
+   .p-first-section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+   }
+
    .section-title{
     font-size: 3rem;
     text-align: center;
@@ -170,7 +191,20 @@ a:hover{
     color: #0E3982;
    }
 
-   @media screen and (max-width:1000px){
+   .second-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .p-second-section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+   }
+
+   @media screen and (max-width:1350px){
     .first-container{
         display: flex;
         flex-direction: column-reverse;
@@ -181,6 +215,20 @@ a:hover{
         text-align: left;
         margin: 0 6rem 0 6rem;
         line-height:2em;
+        width: auto;
+    }
+
+    .second-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .p-second-section{
+        text-align: left;
+        margin: 0 6rem 0 6rem;
+        line-height:2em;
+        width: auto;
     }
    }
 
