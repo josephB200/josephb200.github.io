@@ -195,6 +195,7 @@ a:hover{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    background-color: #dce9f5;
    }
 
    .p-second-section{
@@ -203,35 +204,10 @@ a:hover{
     width: 35%;
    }
 
-   @media screen and (max-width:1350px){
-    .first-container{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .p-first-section{
-        text-align: left;
-        margin: 0 6rem 0 6rem;
-        line-height:2em;
-        width: auto;
-        text-align: center;
-    }
-
-    .second-container{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .p-second-section{
-        text-align: left;
-        margin: 0 6rem 0 6rem;
-        line-height:2em;
-        width: auto;
-        text-align: center;
-    }
+   .img-section{
+    mix-blend-mode:darken
    }
+
 
    /* Footer Part */
    
@@ -242,7 +218,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 35rem;
+    height: 40rem;
    }
 
    .footer-question{
@@ -281,3 +257,117 @@ a:hover{
     margin: 1rem 0 2rem 0;
     text-align: center;
    }
+
+   /* Page Inscription*/
+   .champs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.email-password{
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin: 0 0 1.5rem 0;
+    padding: 0.4rem;
+}
+
+.prenom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+}
+
+.nom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+}
+
+.nom-prenom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.champs-nom{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+}
+
+.champs-prenom{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+}
+
+.button-conexion{
+    background-color: #fff;
+    color: #0E3982;
+    border: solid 1px #0E3982;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    transition: background-color .2s;
+}
+.button-conexion:hover{
+    color: #fff;
+    background-color: #0E3982;
+}
+
+ @media screen and (max-width:1350px){
+    .first-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .p-first-section{
+        text-align: left;
+        margin: 0 6rem 0 6rem;
+        line-height:2em;
+        width: auto;
+        text-align: center;
+    }
+
+    .second-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .p-second-section{
+        text-align: left;
+        margin: 0 6rem 0 6rem;
+        line-height:2em;
+        width: auto;
+        text-align: center;
+    }
+
+    .champs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .email-password{
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    margin: 0 0 1.5rem 0;
+    padding: 0.4rem;
+    }
+    .prenom,.nom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+    }
+    
+ }

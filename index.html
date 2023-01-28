@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mapage</title>
     <script src="https://kit.fontawesome.com/fe1f1b777f.js" crossorigin="anonymous"></script>
 </head>
@@ -38,7 +38,7 @@
     </header>
     <main>
         <section class="first-section">
-            <h1 class="section-title">Commercial</h1>
+            <h2 class="section-title">Commercial</h2>
             <div class="first-container">
             <div class="img-first-section">
                 <br />
@@ -46,7 +46,7 @@
             </div>
 
             <div class="p-first-section">
-                <h2>Lorem ipsum dolor sit amet</h2><br />
+                <h3>Lorem ipsum dolor sit amet</h3><br />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque officia aperiam nam quaerat deserunt corporis quod quisquam voluptatum nisi assumenda provident, nostrum dicta, quo animi, ullam culpa accusantium rem.</p>
             </div>
         </div>
@@ -55,11 +55,26 @@
         <section class="second-section">
             <div class="second-container">
             <div class="img-second-section">
-                <img src="./media/6678.jpg" width="700px">
+                <img class="img-section" src="./media/6678.jpg" width="700px">
             </div>
 
             <div class="p-second-section">
-                <h2>Lorem ipsum dolor sit amet.</h2><br />
+                <h3>Lorem ipsum dolor sit amet.</h3><br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque officia aperiam nam quaerat deserunt corporis quod quisquam voluptatum nisi assumenda provident, nostrum dicta, quo animi, ullam culpa accusantium rem.</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="first-section">
+            <h2 class="section-title">Rapide</h2>
+            <div class="first-container">
+            <div class="img-first-section">
+                <br />
+                <img src="./media/4799410.jpg" width="700px">
+            </div>
+
+            <div class="p-first-section">
+                <h3>Lorem ipsum dolor sit amet</h3><br />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit itaque officia aperiam nam quaerat deserunt corporis quod quisquam voluptatum nisi assumenda provident, nostrum dicta, quo animi, ullam culpa accusantium rem.</p>
             </div>
         </div>
@@ -92,7 +107,11 @@
                 <p>Copyright 2023 Josephb200.github.io</p>
             </div>
     </footer>
-    <script defer>AOS.init();</script>
-    <script src="aos-master/dist/aos.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      import AOS from 'aos';
+      import 'aos/dist/aos.css'
+      AOS.init();
+    </script>
 </body>
 </html>
