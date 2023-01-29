@@ -10,10 +10,13 @@ body{
 
 header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #0E3982;
     height: 8em;
+    position: sticky;
+    top: 0;
 }
 
 .header-title{
@@ -76,8 +79,9 @@ a:hover{
     color: #1F353F;
     margin-left: 1em;
     font-size: 18px;
-    padding: 0 1em;
-    border-radius: 0.8em;
+    padding: 0.4em 1.2em;
+    text-decoration: none;
+    border-radius: 0.5em;
     background-color: aliceblue;
     border: 1px solid #e8e8e8;
   }
@@ -195,7 +199,7 @@ a:hover{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    background-color: #dce9f5;
+    background-color:aliceblue;
    }
 
    .p-second-section{
